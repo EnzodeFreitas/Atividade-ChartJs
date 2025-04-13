@@ -1,0 +1,23 @@
+.titulo-principal {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.graficos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+canvas {
+    position: relative; 
+    height: 40vh; 
+    width:40vw; 
+    background-color: white; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
